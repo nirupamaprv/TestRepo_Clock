@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>JavaScript Clock rendering</title>
+<script language="JavaScript">
+<!--
+	var currentTime = new Date();
+	var day =  currentTime.getDay();
+	switch (day) {
+    	case 0:
+       		day = "Sunday";
+        	break;
+    	case 1:
+        	day = "Monday";
+	        break;
+   	case 2:
+        	day = "Tuesday";
+        	break;
+    	case 3:
+        	day = "Wednesday";
+        	break;
+    	case 4:
+        	day = "Thursday";
+        	break;
+   	case 5:
+        	day = "Friday";
+        	break;
+    	case 6:
+        	day = "Saturday";
+}
+	var hours = currentTime.getHours();
+	var minutes = currentTime.getMinutes();
+   	var seconds = currentTime.getSeconds();
+	document.write(day + "<br>" + hours +"  :  "+ minutes +  "  : "+ seconds );
+//-->
+</script>
+
+<style media="screen" type="text/css">
+body {
+    background-color: #000000;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 20px;
+    font-family: courier, monospace;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+</style>
+
+</head>
+<body><br> Digital Clock </body>
+</html>
